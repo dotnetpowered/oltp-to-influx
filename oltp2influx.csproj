@@ -1,0 +1,9 @@
+<ItemGroup>
+    <PackageReference Include="InfluxDB.Client" Version="4.14.0" />
+    <PackageReference Include="OpenTelemetry" Version="1.8.1" />
+    <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.8.1" />
+    <PackageReference Include="OpenTelemetry.Extensions.Logging" Version="1.8.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+    <PackageReference Include="Grpc.Core" Version="2.46.6" /> <!-- For gRPC interceptors -->
+</ItemGroup>
